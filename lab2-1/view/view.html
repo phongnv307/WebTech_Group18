@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 2_1 Group 18</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="form_container">
+        <div id="form_title">
+            <h1>Personal Information</h1>
+        </div>
+        <form action="../controller/process.php" method="POST">
+            <div id="form_content">
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Full Name:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="text" name="name" required>
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Phone number:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="text" name="phone_number">
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Address:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="text" name="address">
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Gender:</span>
+                        <span>
+                                <input type="radio" value="male" id="male_gender"  name="gender">
+                                <label for="male_gender">Male</label>
+                                <input type="radio" value="female" id="female_gender" name="gender">
+                                <label for="female_gender">Female</label>
+                                <input type="radio" value="other" id="other_gender" name="gender">
+                                <label for="other_gender">Other</label>
+                            </span>
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Date of birth:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="date" name="date_of_birth">
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>University:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="text" name="university">
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Class:</span>
+                    </div>
+                    <div class="info_content">
+                        <input type="text" name="class">
+                    </div>
+                </div>
+                <div class="info_wrap">
+                    <div class="info_header">
+                        <span>Hobbies:</span>
+                        <br><br>
+                        <span>1. Sport:</span>
+                        <br>
+                        <span>
+                                <input type="checkbox" name="sport[]" value="Football">
+                                <label>Football</label><br>
+                                <input type="checkbox" name="sport[]" value="Badminton">
+                                <label>Badminton</label><br>
+                                <input type="checkbox" name="sport[]" value="Volleyball">
+                                <label>Volleyball</label><br>
+                                <input type="checkbox" name="sport[]" value="Basketball">
+                                <label>Basketball</label><br>
+                                <input type="checkbox" name="sport[]" value="Swimming">
+                                <label>Swimming</label><br>
+                                <input type="checkbox" name="sport[]" value="Tennis">
+                                <label>Tennis</label><br>
+                                <input type="checkbox" name="sport[]" value="Table Tennis">
+                                <label>Table Tennis</label>
+                            </span>
+                        <br><br>
+                        <span>2. Game:</span>
+                        <br>
+                        <span>
+                                <input type="checkbox" name="game[]" value="League Of Legends">
+                                <label>League Of Legends</label><br>
+                                <input type="checkbox" name="game[]" value="Age Of Empires">
+                                <label>Age Of Empires</label><br>
+                                <input type="checkbox" name="game[]" value="Player’s Unknown Battle Ground (PUBG)">
+                                <label>Player’s Unknown Battle Ground</label><br>
+                                <input type="checkbox" name="game[]" value="Fortnite Battle Royale">
+                                <label>Fortnite Battle Royale</label><br>
+                                <input type="checkbox" name="game[]" value="Apex Legends">
+                                <label>Apex Legends</label><br>
+                                <input type="checkbox" name="game[]" value="Counter Strike">
+                                <label>Counter Strike</label><br>
+                                <input type="checkbox" name="game[]" value="Minecraft">
+                                <label>Minecraft</label><br>
+                                <input type="checkbox" name="game[]" value="DOTA  2">
+                                <label>DOTA  2</label><br>
+                                <input type="checkbox" name="game[]" value="The Division 2">
+                                <label>The Division 2</label>
+                            </span>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="other_hobbies">
+                        <span style="font-weight: bold">3. Others:</span>
+                        <br>
+                        <textarea name="other_hobbies"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div id="submit-button-wrap">
+                    <input type="submit" value="Submit" name="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
