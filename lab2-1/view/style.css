@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#form_container {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 80%;
+    top: 10%;
+    background-color: rgb(121, 133, 133);
+    overflow-y: auto;
+}
+
+#form_title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#form_content {
+    position: relative;
+    width: 100%;
+}
+
+.info_wrap {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.info_header {
+    width: 100%;
+    text-align: left;
+}
+
+.info_header span {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.info_content {
+    width: 100%;
+    height: 35px;
+}
+
+.info_content input {
+    background-color: azure;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    font-family: "Times New Romans";
+    opacity: 0.9;
+}
+
+label {
+    font-weight: 100;
+}
+
+.other_hobbie {
+    width: 100%;
+}
+
+.other_hobbies textarea {
+    width: 100%;
+    height: 50px;
+    word-break: break-all;
+    border: solid black 1px;
+    font-size: 18px;
+    font-family: "Times New Romans";
+}
+
+#submit-button-wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#submit-button-wrap input {
+    width: 35%;
+    margin-left: 35%;
+    height: 40px;
+    background-color: #006633;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    color: whitesmoke;
+    cursor: pointer;
+}

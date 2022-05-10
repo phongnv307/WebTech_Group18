@@ -1,0 +1,26 @@
+td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+.th1{
+    border-right: white;
+}
+.th2{
+    border-left: white;
+}
+.table{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+td:nth-child(2){
+    border-right: whitesmoke;
+}
+
+td:nth-child(3){
+    border-left: whitesmoke;
+}
