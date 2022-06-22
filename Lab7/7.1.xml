@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student>
+        <mssv>20194167</mssv>
+        <name>Lu Manh Thang</name>
+        <class>KHMT06-64</class>
+        <phone>0916725626</phone>
+    </student>
+	
+    <student>
+        <mssv>20194037</mssv>
+        <name>Le Van Luong</name>
+        <class>KHMT03-64</class>
+        <phone>091672215626</phone>
+    </student>
+</students>

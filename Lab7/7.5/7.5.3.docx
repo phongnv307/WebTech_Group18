@@ -1,0 +1,22 @@
+So sánh và tóm tắt những ưu và nhược điểm của từng ngôn ngữ.
+
+Hỗ trợ công cụ (tính đến ngày hôm nay)
+    Tốt nhất: DTD
+    Hứa hẹn nhất: Lược đồ XML W3C
+    Kẻ thách thức: RELAX NG
+    Niche: Schematron và Examplotron
+
+Đặc trưng
+    Cấu trúc: DTD, W3C XML Schema, RELAX NG, Examplotron.
+    Loại dữ liệu: Lược đồ XML W3C
+    Tính toàn vẹn: Lược đồ XML W3C, Schematron, Examplotron
+    Quy tắc: Schematron, Examplotron
+
+Tính linh hoạt (khả năng mô tả một loạt các cấu trúc)
+    Linh hoạt nhất: Schematron (nhưng mọi thứ cần được xác định "bằng tay").
+    Ngôn ngữ dựa trên cấu trúc linh hoạt nhất: RELAX NG.
+    Tính toàn vẹn: Lược đồ XML W3C, Schematron, Examplotron
+    Kẻ thách thức: Examplotron
+    Phía sau: Lược đồ XML W3C
+    Ít linh hoạt: DTD (thiếu hỗ trợ không gian tên)
+
